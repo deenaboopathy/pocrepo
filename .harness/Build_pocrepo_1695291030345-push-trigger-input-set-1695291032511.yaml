@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_pocrepo_1695291030345-push-trigger-input-set
+  identifier: Build_pocrepo_1695291030345pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Sample
+  pipeline:
+    identifier: Build_pocrepo_1695291030345
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
